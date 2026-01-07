@@ -2,9 +2,9 @@
 
 A full-stack application that matches job candidates with job listings based on their preferences, skills, and experience. Features a professional dashboard for managing candidates, jobs, and viewing intelligent matches.
 
-## ** Features**
+##  Features
 
-### **Core Features**
+### Core Features
 - **Candidate Management**: Create, view, and manage candidate profiles with preferences
 - **Job Management**: Add, scrape, and manage job listings from various sources
 - **Intelligent Matching**: Rule-based matching algorithm with weighted scoring
@@ -18,7 +18,7 @@ A full-stack application that matches job candidates with job listings based on 
 - **Job Scraping**: Ethical web scraping from job portals
 - **Real-time Updates**: Live data synchronization
 
-## ** Quick Start**
+##  Quick Start
 
 ### **Prerequisites**
 - Node.js (v14 or higher)
@@ -131,7 +131,7 @@ job-preference-matcher/
 └── README.md               # This file
 ```
 
-## ** API Endpoints**
+##  API Endpoints
 
 ### **Candidates**
 - `GET /api/candidates` - Get all candidates
@@ -151,7 +151,7 @@ job-preference-matcher/
 - `GET /api/health` - Health check
 - `GET /api/test` - Test endpoint
 
-## ** Matching Algorithm**
+##  Matching Algorithm
 
 ### **Weighted Scoring System**
 | Factor | Weight | Description |
@@ -225,7 +225,7 @@ MONGODB_URI=mongodb://localhost:27017/job_matcher
 NODE_ENV=development
 ```
 
-## ** Database Schemas**
+##  Database Schemas
 
 ### **Candidate Schema**
 ```javascript
@@ -260,7 +260,7 @@ NODE_ENV=development
 }
 ```
 
-## ** UI Components**
+##  UI Components
 
 ### **Dashboard**
 - System statistics cards
@@ -311,20 +311,6 @@ NODE_ENV=development
    # Get jobs
    curl http://localhost:3000/api/jobs
    ```
-
-## ** Limitations & Assumptions**
-
-### **Technical Limitations**
-- Job scraping limited to public portals with ethical constraints
-- Matching algorithm is rule-based (not ML/AI)
-- No user authentication/authorization implemented
-- Basic error handling in production scenarios
-
-### **Assumptions**
-- Candidate data is manually entered or imported
-- Job descriptions contain skill keywords
-- Location matching is based on exact string matching
-- Experience levels follow standard progression
 
 
 
